@@ -1,7 +1,16 @@
 public class Main
 {
 	public static void main(String[] args) {
+	    int time = 2000;
 		String[] Gigachad ={
+		    "Can you hear the silence?",
+		    "Can you see the dark?",
+		    "Can you fix the broken?",
+		    "CAN",
+		    "YOU",
+		    "FEEL",
+		    "MY",
+		    "HEART",
 "	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⣤⣤⣶⣤⣤⣀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀",
 "	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀",
 "	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣾⣿⣿⣿⣿⣿⡿⠋⠉⠛⠛⠛⠿⣿⠿⠿⢿⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀",
@@ -34,10 +43,21 @@ public class Main
 	    long agora  = System.currentTimeMillis() - tempo;
 	    int line = 0;
 	    while(line!=Gigachad.length){
+	        if(line == 4){time = 500;}
+	        if(line == 8){time = 100;}
 	        agora  = System.currentTimeMillis() - tempo;
-	        if(agora >=200){
+	        if(agora >=time){
 	            tempo = System.currentTimeMillis();
 	            System.out.println(Gigachad[line]);
+	            line++;
+	        }
+	    }
+	    tempo= System.currentTimeMillis();
+	    while(line!=Gigachad.length+30){
+	        agora  = System.currentTimeMillis() - tempo;
+	        if(agora >=time){
+	            tempo = System.currentTimeMillis();
+	            System.out.println("");
 	            line++;
 	        }
 	    }
