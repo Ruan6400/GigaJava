@@ -47,7 +47,7 @@ public class Giga {
 	    int line = 0;
 	    while(line!=Gigachad.length){
 	        if(line == 4){time = 500;}
-	        if(line == 8){time = 100;}
+	        if(line == 8){time = 200;}
 	        agora  = System.currentTimeMillis() - tempo;
 	        if(agora >=time){
 	            tempo = System.currentTimeMillis();
