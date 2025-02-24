@@ -1,4 +1,8 @@
 public class Giga {
+    
+    public Giga(){
+        
+    }
 	public static Giga Chad(){
 	    int time = 2000;
 		String[] Gigachad ={
@@ -60,7 +64,6 @@ public class Giga {
 	            line++;
 	        }
 	    }
+	    return new Giga();
 	}
-	return new Giga();
-  }
 }
