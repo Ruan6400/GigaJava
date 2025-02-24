@@ -1,6 +1,5 @@
-public class Main
-{
-	public static void main(String[] args) {
+public class Giga {
+	public static Giga Chad(){
 	    int time = 2000;
 		String[] Gigachad ={
 		    "Can you hear the silence?",
@@ -62,4 +61,6 @@ public class Main
 	        }
 	    }
 	}
+	return new Giga();
+  }
 }
